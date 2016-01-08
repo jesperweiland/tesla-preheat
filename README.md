@@ -2,11 +2,11 @@
 
 Tesla-preheat can be used to preheat or defrost (higher temperature) your Tesla Model S. It will wake up your car, check the current temperature and start the climate control if you have more than the minimal range.
 
-You can configure pushover to receive a pushmessage on your phone once the process has started. It will tell you the current outside temperature and your range.
+You can configure [pushover](pushover.net) to receive a pushmessage on your phone once the process has started. It will tell you the current outside temperature and your range.
 
 ## Requirements
 
-Tesla-preheat requires `https://github.com/jstenback/pytesla`
+Tesla-preheat requires [https://github.com/jstenback/pytesla](https://github.com/jstenback/pytesla).
 
 ## Installation
 
