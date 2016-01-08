@@ -64,7 +64,7 @@ car.auto_conditioning_start()
 time.sleep(10)
 
 # Get data from car
-outside_temp = car.climate_state['outside_temp'] 
+outside_temp = car.climate_state['outside_temp']
 ideal_range = car.charge_state['ideal_battery_range']
 ideal_rangekm = round(car.charge_state['ideal_battery_range'] * 1.6)
 
