@@ -10,7 +10,7 @@ Tesla-preheat requires [https://github.com/jstenback/pytesla](https://github.com
 
 ## Installation
 
-Use crontab to schedul tesla-preheat.py, for instance:
+Use crontab to schedule tesla-preheat.py, for instance:
 
 ```50 7 * * 1,2,3,4,5 /usr/local/bin/tesla-preheat.py > /dev/null 2>&1```
 
