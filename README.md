@@ -14,7 +14,7 @@ Use crontab to schedule tesla-preheat.py, for instance:
 
 ```50 7 * * 1,2,3,4,5 /usr/local/bin/tesla-preheat.py > /dev/null 2>&1```
 
-This will run tesla-preheat on monday to friday and will start on 7:50 in the morning. 
+This will run tesla-preheat on monday to friday and will start on 7:50 in the morning.
 
 ## Scheduling
 
